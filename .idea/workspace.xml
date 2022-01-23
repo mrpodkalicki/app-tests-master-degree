@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating angular app">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/app-tests-master-degree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="244fGNDLEEcSlBBqMt2N31MAXnP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/angular-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="" />
+      <created>1642894683082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642894683082</updated>
+      <workItem from="1642894684551" duration="3010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating angular app" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating angular app" />
+  </component>
+</project>
