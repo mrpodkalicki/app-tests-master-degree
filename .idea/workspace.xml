@@ -1,40 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating angular app">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/app-tests-master-degree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating components for initial page test, create, update, delete test">
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/components/initial-page-time-test/initial-page-time-test.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/components/initial-page-time-test/initial-page-time-test.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/components/elements-container/elements-container.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/components/elements-container/elements-container.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/services/manage-data/manage-data.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/services/manage-data/manage-data.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +46,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\shared\services" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\shared" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\creat-delete-update-elements" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\home" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -94,8 +91,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642894683082</updated>
-      <workItem from="1642894684551" duration="3010000" />
+      <workItem from="1642894684551" duration="17209000" />
     </task>
+    <task id="LOCAL-00001" summary="creating angular app">
+      <created>1642948580678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642948580678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating angular app" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating angular app" />
+    <MESSAGE value="creating components for initial page test, create, update, delete test" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating components for initial page test, create, update, delete test" />
   </component>
 </project>
