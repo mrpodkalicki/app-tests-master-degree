@@ -7,8 +7,8 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
     <div>
       <div class="btn-wrapper">
         <button (click)="createElements(10000)">create elements 10 000</button>
+        <button (click)="createElements(25000)">create elements  25 000</button>
         <button (click)="createElements(50000)">create elements  50 000</button>
-        <button (click)="createElements(100000)">create elements  100 000</button>
         <button (click)="deleteElements()">delete elements</button>
         <button (click)="updateElements()">updates elements</button>
       </div>

@@ -1,0 +1,1 @@
+export class UiUrlUtils {  static LAZY_LOADING_TEST = 'lazy-loading-test';  static CREATE_DELETE_UPDATE_TEST = 'create-delete-update-test';  static TEN_THOUSAND = 'ten-thousand';  static ONE_HUNDRED_THOUSAND = 'one-hundred-thousand';  static FIVE_HUNDRED_THOUSAND = 'five-hundred-thousand';}

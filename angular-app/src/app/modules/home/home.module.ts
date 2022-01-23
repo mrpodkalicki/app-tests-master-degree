@@ -3,14 +3,18 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
-import { InitialPageTimeTestComponent } from './components/initial-page-time-test/initial-page-time-test.component';
 import {SharedModule} from "../shared/shared.module";
+import { FiveHundredThousandElementsPageComponent } from './components/five-hundred-thousand-elements-page/five-hundred-thousand-elements-page.component';
+import { TenThousandElementsPageComponent } from './components/ten-thousand-elements-page/ten-thousand-elements-page.component';
+import { OneHundredThousandElementsPageComponent } from './components/one-hundred-thousand-elements-page/one-hundred-thousand-elements-page.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    InitialPageTimeTestComponent
+    FiveHundredThousandElementsPageComponent,
+    TenThousandElementsPageComponent,
+    OneHundredThousandElementsPageComponent
   ],
   imports: [
     CommonModule,

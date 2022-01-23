@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,16 @@ import { Component } from '@angular/core';
   `,
   styles: [
     `
-
     `
   ]
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
+
+  perfData = window.performance.timing;
+
+  ngAfterViewInit() {
+    setTimeout(() => {
+      console.log(this.perfData)
+    }, 2000)
+  }
 }

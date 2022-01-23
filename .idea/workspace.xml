@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating components for initial page test, create, update, delete test">
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/components/initial-page-time-test/initial-page-time-test.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/components/initial-page-time-test/initial-page-time-test.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/home/home.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/components/elements-container/elements-container.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/components/elements-container/elements-container.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/services/manage-data/manage-data.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/services/manage-data/manage-data.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-app/src/app/modules/shared/shared.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642894683082</updated>
-      <workItem from="1642894684551" duration="17209000" />
+      <workItem from="1642894684551" duration="17967000" />
     </task>
     <task id="LOCAL-00001" summary="creating angular app">
       <created>1642948580678</created>
@@ -100,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642948580678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creating components for initial page test, create, update, delete test">
+      <created>1642971031527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642971031527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
