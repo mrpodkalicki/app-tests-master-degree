@@ -32,8 +32,6 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
       width: 15rem;
       height: 2rem;
     }
-
-
   `]
 })
 export class CreatDeleteUpdateElementsTestComponent {

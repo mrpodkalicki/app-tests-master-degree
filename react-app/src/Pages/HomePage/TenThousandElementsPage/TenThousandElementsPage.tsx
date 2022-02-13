@@ -1,0 +1,1 @@
+import TenThousandElements from "../../../Components/TenThousandElements/TenThousandElements";const TenThousandElementsPage = () => {    return (        <>            <TenThousandElements/>        </>    )}export default TenThousandElementsPage;

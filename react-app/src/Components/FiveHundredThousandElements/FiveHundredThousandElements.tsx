@@ -1,0 +1,1 @@
+import ShowElements from "../ShowElements/ShowElements";const FiveHundredThousandElements = () => {    return (        <>            <ShowElements numberOfElements={500000}/>        </>    )}export default FiveHundredThousandElements;

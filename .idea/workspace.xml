@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating components for initial page test, create, update, delete test">
+    <list default="true" id="0d22ad29-b9dd-4401-b33c-2cc2f08a3eb5" name="Default Changelist" comment="creating components to tests">
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/ElementsContainer/ElemenetsContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/ElementsContainer/ElementsContainer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/FiveHundredThousandElements/FiveHundredThousandElements.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/OneHundredThousandElements/OneHundredThousandElements.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/ShowElements/ShowElements.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/Suspense/Suspense.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/TenThousandElements/TenThousandElements.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/CreateDeleteUpdateElementsTestPage/CreateDeleteUpdateElementsTestPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/CreateDeleteUpdateElementsTestPage/CreateDeleteUpdateElementsTestPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/HomePage/FiveHundredThousandElementsPage/FiveHundredThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/HomePage/HomePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/HomePage/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/HomePage/OneHundredThousandElementsPage/OneHundredThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/HomePage/TenThousandElementsPage/TenThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/LazyLoadingTestPage/FiveHundredThousandElementsPage/FiveHundredThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/LazyLoadingTestPage/OneHundredThousandElementsPage/OneHundredThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Pages/LazyLoadingTestPage/TenThousandElementsPage/TenThousandElementsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Services/ManageData.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/utils/uiUrl.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/modules/lazy-loading-test/lazy-loading-test-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-app/src/app/modules/creat-delete-update-elements-test/creat-delete-update-elements-test.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="dc715ce248fb7c5d183b3e81b63bb0fcdd8fca96" />
   </component>
   <component name="ProjectId" id="244fGNDLEEcSlBBqMt2N31MAXnP" />
   <component name="ProjectViewState">
@@ -24,16 +63,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-app/src/Pages/LazyLoadingTestPage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Pages\LazyLoadingTestPage" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Pages\HomePage\TenThousandElementsPage" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\shared\services" />
-      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\shared" />
-      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\creat-delete-update-elements" />
-      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\angular-app\src\app\modules\home" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components\Suspense" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components\ShowElements" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components\OneHundredThousandElements" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components\TenThousandElements" />
+      <recent name="C:\Users\adrian\Desktop\magisterka\projects\app-tests-master-degree\react-app\src\Components\FiveHundredThousandElements" />
     </key>
   </component>
   <component name="RunManager">
@@ -72,7 +118,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642894683082</updated>
-      <workItem from="1642894684551" duration="17967000" />
+      <workItem from="1642894684551" duration="19165000" />
+      <workItem from="1644163453209" duration="13002000" />
+      <workItem from="1644679626975" duration="7550000" />
+      <workItem from="1644764739392" duration="18624000" />
     </task>
     <task id="LOCAL-00001" summary="creating angular app">
       <created>1642948580678</created>
@@ -88,7 +137,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642971031527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creating components for initial page test, create, update, delete test">
+      <created>1642972528360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642972528360</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creating components to tests">
+      <created>1644684960274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644684960274</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creating components to tests">
+      <created>1644685431949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644685431949</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,15 +169,49 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating angular app" />
-    <MESSAGE value="creating components for initial page test, create, update, delete test" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating components for initial page test, create, update, delete test" />
+    <MESSAGE value="creating components for lazy-loading test, adding btn to home, component" />
+    <MESSAGE value="creating components to tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating components to tests" />
   </component>
 </project>

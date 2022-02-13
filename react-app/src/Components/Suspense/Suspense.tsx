@@ -1,0 +1,1 @@
+import React, {ReactElement, Suspense as SuspenseReact} from 'react';const Suspense = ({children}: {children: ReactElement}) => {    return (        <>            <SuspenseReact fallback={<>...</>}>                {children}            </SuspenseReact>        </>    )}export default Suspense;

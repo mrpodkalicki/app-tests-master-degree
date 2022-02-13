@@ -1,0 +1,1 @@
+export const LAZY_LOADING_TEST = 'lazy-loading-test';export const CREATE_DELETE_UPDATE_TEST = 'create-delete-update-test';export const TEN_THOUSAND = 'ten-thousand';export const ONE_HUNDRED_THOUSAND = 'one-hundred-thousand';export const FIVE_HUNDRED_THOUSAND = 'five-hundred-thousand';

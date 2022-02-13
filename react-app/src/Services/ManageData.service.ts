@@ -1,0 +1,1 @@
+let listOfItems: number[] = [];export const setItems = (numberOfElements: number) => {    listOfItems = [...Array(numberOfElements).keys()]};export const getItems = () => listOfItems;export const deleteItems = () => {listOfItems.splice(0, listOfItems.length)};export const updateItems = () => {    listOfItems = listOfItems.map(() => 0);}

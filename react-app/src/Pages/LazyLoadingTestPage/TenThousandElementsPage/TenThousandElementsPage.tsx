@@ -1,0 +1,1 @@
+import TenThousandElements from "../../../Components/TenThousandElements/TenThousandElements";const TenThousandElementsPageLazy = () => {    return (        <>            <TenThousandElements/>        </>    )}export default TenThousandElementsPageLazy;
