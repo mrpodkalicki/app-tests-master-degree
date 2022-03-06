@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker-prod-build": "docker-compose -f docker-compose.prod.yml build",
+    "docker-prod-run": "docker run -p 3000:80 --name react-app-mgr react-app-mgr"
   },
   "eslintConfig": {
     "extends": [
