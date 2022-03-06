@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {ManageDataService} from "../shared/services/manage-data/manage-data.service";
 
 @Component({
@@ -16,6 +16,7 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
       <div class="elements-wrapper">
         <app-elements-container [listOfElements]="getElements()"></app-elements-container>
       </div>
+      {{measureAfterRenderElements()}}
     </div>
   `,
   styles: [`
@@ -35,24 +36,33 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
   `]
 })
 export class CreatDeleteUpdateElementsTestComponent {
-
+  markerNameA: any;
+  markerNameB: any;
 
   constructor(private manageDataService: ManageDataService) {
   }
 
-  getElements(): number[] {
+  measureAfterRenderElements():void {
+    this.markerNameB = performance.now();
+    console.log(this.markerNameA, this.markerNameB, this.markerNameB - this.markerNameA, 'render html')
+  }
+
+  getElements(): number[] | string[] {
     return this.manageDataService.getItems();
   }
 
   createElements(numberOfElements: number = 0): void {
+    this.markerNameA = performance.now();
     this.manageDataService.setItems(numberOfElements);
   }
 
   deleteElements(): void {
-    this.manageDataService.deleteItems()
+    this.markerNameA = performance.now();
+    this.manageDataService.deleteItems();
   }
 
   updateElements(): void {
+    this.markerNameA = performance.now();
     this.manageDataService.updateList();
   }
 }

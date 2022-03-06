@@ -5,7 +5,7 @@ import {Component, Input} from '@angular/core';
   template: `
     <div class="container">
       <div *ngFor="let item of listOfElements">
-        {{item}}
+        <p>{{item}}</p>
       </div>
     </div>
   `,
@@ -20,5 +20,5 @@ import {Component, Input} from '@angular/core';
 })
 export class ElementsContainerComponent {
 
-  @Input() listOfElements: number[] = [];
+  @Input() listOfElements: any = [];
 }

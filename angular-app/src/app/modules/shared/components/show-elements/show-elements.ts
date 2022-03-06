@@ -17,7 +17,7 @@ export class ShowElements {
   }
 
 
-  getNumbers(): number[] {
+  getNumbers():number[] | string[] {
     this.manageDataService.setItems(this.numberOfElements);
     return this.manageDataService.getItems();
   }
