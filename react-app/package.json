@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docker-prod-build": "docker-compose -f docker-compose.prod.yml build",
+    "docker-prod-build": "yarn cache clean --force && docker-compose -f docker-compose.prod.yml build",
     "docker-prod-run": "docker run -p 3000:80 --name react-app-mgr react-app-mgr"
   },
   "eslintConfig": {
