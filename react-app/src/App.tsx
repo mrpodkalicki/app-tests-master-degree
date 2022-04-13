@@ -1,4 +1,4 @@
-import React, {lazy} from 'react';
+import React, {lazy, useEffect} from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {
     CREATE_DELETE_UPDATE_TEST,
@@ -25,6 +25,14 @@ const FiveHundredThousandElementsPageLAzy = lazy(() => import( './Pages/LazyLoad
 
 
 function App() {
+    useEffect(() => {
+        const perfData = window.performance.timing;
+
+        setTimeout(() => {
+            console.log(perfData)
+        }, 2000)
+    }, []);
+
   return (
       <BrowserRouter>
         <Routes>

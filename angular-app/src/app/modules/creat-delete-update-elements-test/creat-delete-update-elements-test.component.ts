@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {AfterViewChecked, Component} from '@angular/core';
 import {ManageDataService} from "../shared/services/manage-data/manage-data.service";
 
 @Component({
@@ -16,7 +16,6 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
       <div class="elements-wrapper">
         <app-elements-container [listOfElements]="getElements()"></app-elements-container>
       </div>
-      {{measureAfterRenderElements()}}
     </div>
   `,
   styles: [`
@@ -35,16 +34,22 @@ import {ManageDataService} from "../shared/services/manage-data/manage-data.serv
     }
   `]
 })
-export class CreatDeleteUpdateElementsTestComponent {
-  markerNameA: any;
-  markerNameB: any;
+export class CreatDeleteUpdateElementsTestComponent implements AfterViewChecked {
+  markA = 0;
+  markB = 0;
+  action = '';
 
   constructor(private manageDataService: ManageDataService) {
   }
 
-  measureAfterRenderElements():void {
-    this.markerNameB = performance.now();
-    console.log(this.markerNameA, this.markerNameB, this.markerNameB - this.markerNameA, 'render html')
+  ngAfterViewChecked(): void {
+      this.showTime();
+  }
+
+  showTime = () => {
+    this.markB = performance.now();
+    console.log("start:",  this.markA, 'stop:', this.markB);
+    console.log('time:', this.markB -  this.markA, 'action:', this.action);
   }
 
   getElements(): number[] | string[] {
@@ -52,17 +57,20 @@ export class CreatDeleteUpdateElementsTestComponent {
   }
 
   createElements(numberOfElements: number = 0): void {
-    this.markerNameA = performance.now();
+    this.action = 'create'
+    this.markA = performance.now();
     this.manageDataService.setItems(numberOfElements);
   }
 
   deleteElements(): void {
-    this.markerNameA = performance.now();
+    this.action = 'delete'
+    this.markA = performance.now();
     this.manageDataService.deleteItems();
   }
 
   updateElements(): void {
-    this.markerNameA = performance.now();
+    this.action = 'update'
+    this.markA = performance.now();
     this.manageDataService.updateList();
   }
 }
