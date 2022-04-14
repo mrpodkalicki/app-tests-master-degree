@@ -4,7 +4,7 @@ import {Component, Input} from '@angular/core';
   selector: 'app-elements-container',
   template: `
     <div class="container">
-      <div *ngFor="let item of listOfElements">
+      <div *ngFor="let item of listOfElements; let i = index; trackBy: trackByFn">
         <p>{{item}}</p>
       </div>
     </div>
@@ -21,4 +21,9 @@ import {Component, Input} from '@angular/core';
 export class ElementsContainerComponent {
 
   @Input() listOfElements: any = [];
+
+  trackByFn(index: any, item: string): string {
+    return item;
+  }
+
 }
